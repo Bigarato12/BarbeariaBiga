@@ -1,0 +1,24 @@
+body{ 
+    background-color: gray;
+}
+
+h1{
+    text-align: center
+}
+
+p {
+    text-align: center;
+
+}
+
+em strong{
+    color: greenyellow;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+strong{
+    color: red;
+}
