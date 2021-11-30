@@ -29,3 +29,43 @@ nav a{
     text-decoration: none /*Tira a o sublinhado;*/
     
 }
+.imagem-produtos{
+    width: 100%;
+    height: 50;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.produtos{
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 24%;
+    vertical-align: top;
+    background: lightgray;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-desc{
+    font-size: 18px;
+    font-style: italic;
+}
+.produto-preço{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 10px;
+}
+#unidades{
+    padding-top: 5px;
+}
