@@ -29,11 +29,27 @@ nav a{
     text-decoration: none /*Tira a o sublinhado;*/
     
 }
+
+nav a:hover{
+    color: gold;
+}
+
+.produtos li:hover {
+    border: 4px gold solid;
+   
+}
+.produtos li:hover img{
+    visibility: hidden;
+}
+.imagem-produtos:hover img{
+    background: url("Imagens/cabelo+barba.jpg") no-repeat;
+}
 .imagem-produtos{
     width: 100%;
     height: 50;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: inline-block;
 }
 .produtos{
     width: 900px;
