@@ -29,27 +29,34 @@ nav a{
     text-decoration: none /*Tira a o sublinhado;*/
     
 }
-
 nav a:hover{
     color: gold;
+}
+.imagem-produtos {
+width: 100%;
+    height: 140px;
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.imagem-produtos .img-top {
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.imagem-produtos:hover .img-top {
+    display: inline;
 }
 
 .produtos li:hover {
     border: 4px gold solid;
-   
-}
-.produtos li:hover img{
-    visibility: hidden;
-}
-.imagem-produtos:hover img{
-    background: url("Imagens/cabelo+barba.jpg") no-repeat;
-}
-.imagem-produtos{
-    width: 100%;
-    height: 50;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
 }
 .produtos{
     width: 900px;
