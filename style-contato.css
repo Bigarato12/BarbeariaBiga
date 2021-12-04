@@ -1,0 +1,66 @@
+.logo{
+    display: inline;
+    width: 10%;
+    height: 50;
+}
+.caixa{
+    position:relative;
+    width:940px;
+    margin: 0 auto;
+}
+header{
+    background: gray;
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top: 40px;
+    right:0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold; /*Aumenta a grossura da linha */
+    font-size: 22px;
+    text-decoration: none /*Tira a o sublinhado;*/
+}
+main form{
+    margin: 0 auto;
+    width: 940px;
+    padding: 10px;
+    font-size: 20px;
+}
+.formulário{
+    display:block;
+    font-size: 20px;
+    margin:0 0 10px;
+}
+.formulário_text{
+    display:block;
+    font-size: 15px;
+    margin:0 0 8px;
+    padding: 0 10px;
+}
+.formulário_envio{
+    display:block;
+    font-size: 10px;
+    margin:0 0 10px;
+}
+footer{
+    display:inline;
+    text-align: center;
+    background: lightblue;
+}
+.rodapé{
+    width: 5%;
+    height: 12;
+}
+.element{
+    caret-color: aqua;
+}
