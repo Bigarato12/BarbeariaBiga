@@ -11,7 +11,7 @@
     <body>
         <header>
             <div class="caixa">
-              <h1><a href="home.html"><img class="logo" src="Imagens/logo.png"></a></h1>
+              <h1><a href="home.html"><img class="logo" src="Imagens/logo.png" alt="Logo brub's"></a></h1>
               <nav>
                    <ul class="NavBar">
                         <li><a href="Home.html">Home</a></li>
@@ -35,17 +35,19 @@
 
                  <label for="mensagem">Mensagem:</label>
                  <textarea cols="28" rows="15" id="mensagem" placeholder="Insira aqui seu pedido em detalhes" required></textarea>
-            <div>
-                
-                <p class="texto_caixa_de_Selecao"> Qual o melhor meio de contato para você?</p>    
-                
-                <label for="radio-email"><input type="radio" name="contato" value="E-mail" class="opcoes">E-mail</label>
-                
-                <label for="radio-nomecompleto"> <input type="radio" name="contato" class="opcoes" value="Nome_completo" >Nome completo</label>
-                
-                <label for="radio-telefone"><input type="radio" name="contato" value="Whatsapp" class="opcoes" checked> Whatsapp</label> <!a tag name serve para definir uma "classe" para o type "radio" assim as caixas de seleção não podem ser selecionadas mais de uma vez>
-                
-            </div>
+                 
+                <fieldset>
+
+                     <legend class="texto_caixa_de_Selecao"> Qual o melhor meio de contato para você?</legend>    
+                     
+                     <label for="radio-email"><input type="radio" name="contato" value="E-mail" class="opcoes">E-mail</label>
+                     
+                     <label for="radio-nomecompleto"> <input type="radio" name="contato" class="opcoes" value="Nome_completo" >Nome completo</label>
+                     
+                     <label for="radio-telefone"><input type="radio" name="contato" value="Whatsapp" class="opcoes" checked> Whatsapp</label> <!a tag name serve para definir uma "classe" para o type "radio" assim as caixas de seleção não podem ser selecionadas mais de uma vez>
+                     
+                </fieldset>
+        
             
             <p class="texto_caixa_de_Selecao">Escolha o horário</p>
             <select>
@@ -56,15 +58,30 @@
             
             <label for=""><input type="checkbox" class="texto_caixa_de_Selecao" checked> Quer receber as novidades por e-mail?</label>
 
-            <input type="submit" value="Criar conta" class="formulário_envio">
+            <input type="submit" value="Criar conta" class="formulário_envio" >
         </form>
-
-
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dias</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                     <tbody>
+                    <tr>
+                        <td>Segunda a Sexta</td>
+                        <td>8h ~ 21h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>8h ~ 14h</td>
+                    </tr>
+                    </tbody>
+            </table>   
 
     </main>
 
          <footer>
-            <img class="rodapé" src="Imagens/logo.png">
             <p> &copy; Copyright Brub's - 2021</p>
         </footer>
     </html>

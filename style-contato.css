@@ -119,6 +119,23 @@ input[type='checkbox']:checked:after {
     visibility: visible;
     border: 2px solid black;
 }
+.formulário_envio{
+    margin: 20px 0;
+    width: 30%;
+    padding: 12px 0;
+    background: gold;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+    pointer-events: painted;
+}
+.formulário_envio:hover{
+    background:darkgoldenrod;
+    transform: scale(1.1);
+}
 
 footer{
     display:inline;
